@@ -16,8 +16,7 @@
 
 **Following are the steps involved in the process**
 
-- assume that this run_analysis.R script is in the same directory as the
-- working directory: "~/GitHub/r-gacd/UCI HAR Dataset"
+- assume that this run_analysis.R script is in the same directory as the working directory: "~/GitHub/r-gacd/UCI HAR Dataset"
 
 - load required packages (dplyr); assume that they were already installed
 
@@ -38,10 +37,10 @@
 
 - Create a new tidy summary data set of means of all the measures by activity and subject
 
-- since we don't need activityid (replaced by activityname), let us drop the activityid in the result/tidy set
+- since we don't need activityid (replaced by activityname), drops the activityid in the result/tidy set
 
-- Generate tidySummary output file in the current working directory (tidySummary.txt)
+- generate tidySummary output file in the current working directory (tidySummary.txt)
 
-  - Use default separator and header creation. 
-  - Also, let it be created in the current working directory
+  - use default separator and header creation. 
+  - also, let it be created in the current working directory
 
